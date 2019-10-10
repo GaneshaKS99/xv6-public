@@ -90,9 +90,10 @@ sys_uptime(void)
   return xticks;
 }
 
-//dumps ptbale onto proc.dump file
 int
 sys_cps(void)
 {
- return cps();
+	return cps();
 }
+
+
